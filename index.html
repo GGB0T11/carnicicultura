@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Carnicicultura - CEMIC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #004d40;
+            padding: 1em 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .logo, .team-photo {
+            width: 150px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Projeto Carnicicultura</h1>
+        <p>Centro de Ensino Médio Integrado do Cruzeiro (CEMIC)</p>
+        <img src="logo.jpg" alt="Logotipo CEMIC" class="logo">
+        <p>Código do Trabalho: F20 labqui(SP)</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#sobre">Sobre o Projeto</a>
+        <a href="#resumo">Resumo</a>
+        <a href="#introducao">Introdução</a>
+        <a href="#pesquisa">Pesquisa</a>
+        <a href="#desenvolvimento">Desenvolvimento</a>
+        <a href="#conclusao">Conclusão</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Seção Sobre o Projeto -->
+    <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>O projeto de Carnicicultura visa criar camarões forrageiros de água doce para ajudar na limpeza de ecossistemas aquáticos. Nosso objetivo é promover práticas sustentáveis e oferecer soluções inovadoras para o setor de aquários e outras áreas ambientais.</p>
+        <h3>Equipe</h3>
+        <ul>
+            <li>Professor Conselheiro: Marco Antônio</li>
+            <li>Davi Aníbal - 2C</li>
+            <li>Lucca - 2C</li>
+            <li>Victor - 2C</li>
+            <li>João Gabriel Nabor - 2C</li>
+            <li>Pedro Miguel - 2C</li>
+            <li>Emily Karollaine - 1D</li>
+        </ul>
+        <div class="gallery">
+            <img src="equipe.jpg" alt="Foto da equipe" class="team-photo">
+        </div>
+    </section>
+
+    <!-- Seção Resumo -->
+    <section id="resumo">
+        <h2>Resumo</h2>
+        <p>O projeto Carnicicultura foi desenvolvido para resolver o problema de sujeira no lago sintético da escola (Projeto Cascata) por meio da introdução de camarões forrageiros, que auxiliam na limpeza e manutenção do ecossistema. Além de beneficiar a escola, o projeto visa estudar a capacidade desses camarões na manutenção da qualidade da água.</p>
+    </section>
+
+    <!-- Restante do conteúdo permanece o mesmo -->
+
+    <!-- Seção Galeria -->
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="img2.jpg" alt="Imagem dos camarões no ecossistema">
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Interessado no nosso projeto? Entre em contato conosco!</p>
+        <form action="https://example.com/form" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Projeto Carnicicultura. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
